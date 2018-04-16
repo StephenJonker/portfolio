@@ -1,6 +1,7 @@
 # Portfolio of sample code
 
-My portfolio repository contains a few select examples of sample code for each of the following areas:
+My portfolio repository contains a few select examples of sample code for each of the following areas. If you 
+are considering hiring me for a job or contract, this is a good place to start.
 
 ### Portfolio
 
@@ -11,7 +12,8 @@ My portfolio repository contains a few select examples of sample code for each o
 * Selenium 
 * Bootstrap 4 
 
-It is for the quick highlights. For additions examples, see the my other public repositories below.
+For additional examples, see the my other public repositories below. They exists to expand on the portfolio examples and 
+provide a online code reference for myself.  
 
 ### Other public repositories:
 
