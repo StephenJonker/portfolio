@@ -1,10 +1,24 @@
-# portfolio
-Portfolio of sample code
+# Portfolio of sample code
 
-This respositor contains a portfolio of sample code. It contains the highlights taken from my other public respositories
-listed below:
+My portfolio repository contains a few select examples of sample code for each of the following areas:
 
-- bash-sample-code
-- python-sample-code
-- html-css-sample-code
- 
+### Portfolio
+
+* Bash 
+* Python
+* HTML-CSS
+* Javascript 
+* Selenium 
+* Bootstrap 4 
+
+It is for the quick highlights. For additions examples, see the my other public repositories below.
+
+### Other public repositories:
+
+* bash-sample-code
+* python-sample-code
+* html-css-sample-code
+* javascript-sample-code
+* selenium-python-sample-code
+* bootstrap-4-sample-code
+
