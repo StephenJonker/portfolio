@@ -8,7 +8,7 @@
 * Practice, Compete, Find Jobs
 * The HackerRank Community is the largest learning and competition community for programmers
 
-Problem:
+### Problem:
 
 * Draw an ASCII art tree in the form of a "Y".
 * The first "Y" has a base of 16 char and a top of 16 char
@@ -17,11 +17,13 @@ Problem:
 * Repeat this for up to 5 interations.
 * The output is on a 63 x 100 grid and uses underscores (_) and one (1) characters 
 
-Useage: echo "3" | bash ascii-tree-art.sh 
+### Useage: 
+
+* echo "3" | bash ascii-tree-art.sh 
 
 * Input: values between 1 and 5, via the echo command 
 
-Note: 
+### Note: 
 
 * Although "bash" has come along way since the early days of Bourne Shell this 
 example shows why another languange choice like Python might have been better.
