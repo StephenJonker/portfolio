@@ -1,4 +1,5 @@
-# portfolio
-Portfolio of sample code
+# Portfolio - Bash 
 
-Bash
+* FizzBuzz
+
+
