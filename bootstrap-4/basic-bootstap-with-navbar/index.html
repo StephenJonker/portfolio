@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<!--
+	Written by: Stephen Jonker
+	Written on: Wednesday 14 March 2018
+	Copyright (c) Stephen Jonker - www.stephenjonker.com
+
+	Purpose:
+	- This is an example front-end web page, that uses;
+	- Bootstrap 4 and navbar
+	- It is also "Responsive", in that the navabar will change at the "md" breakpoint, and
+	  collapse to a menu button.
+	- A bit of jquery was used to attach an event handler on the menu click 
+	  to close the menu when an item is clicked
+	- It has been validated via: https://validator.w3.org => no errors
+-->
+
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- get the font awesome icon set -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/styles.css">	
+
+	<title>Hello, world!</title>
+</head>
+
+<body>
+	<!-- 
+		From the Bootstrap 4 migration guide:
+		- navbar-expand-*, now required, => "navbar-expand-md" DONE.
+		- navbar-lite or navbar-dark, one required, => "navbar-dark" DONE.
+		- navbar require background declaration, => "bg-primary" done.
+		- The above appears to have resolved the "navbar-toggler-icon" issue described below.
+	-->
+	<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top"> 
+		<div class="container">
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="mainNav" class="collapse navbar-collapse" >
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="#top">Top</a>
+					<a class="nav-item nav-link" href="#para1">Paragraph 1</a>
+					<a class="nav-item nav-link" href="#para2">Paragraph 2</a>
+					<a class="nav-item nav-link" href="#para3">Paragraph 3</a>
+					<a class="nav-item nav-link" href="#para4">Paragraph 4</a>
+					<a class="nav-item nav-link" href="#para5">Paragraph 4</a>
+					<a class="nav-item nav-link" href="#bottom">Bottom</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<header> 
+			<h1 id="top">Hello, world!</h1>
+			<p>
+				And now for a bit of Greek, or is it Latin? I cannot read any of it, so it is all Greek to me :-)
+			</p>
+		</header>
+
+				<main>
+			<h2 id="para1">Paragraph 1</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at nisl vitae felis auctor maximus. Suspendisse ullamcorper lacus nunc, sit amet commodo felis condimentum ac. Suspendisse risus justo, bibendum eget bibendum non, lacinia sodales magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus sem ante, interdum vitae massa ut, iaculis ultrices mi. Vivamus congue, risus nec pulvinar faucibus, justo leo eleifend turpis, vel mattis massa ante in libero. Vestibulum cursus mi nec metus lacinia, quis hendrerit turpis fringilla. Nunc velit nibh, ultricies et leo sollicitudin, auctor vulputate sapien. Quisque fermentum tellus sed erat aliquet euismod. Nunc at tristique nulla, id volutpat lectus. Nunc orci enim, aliquam ut est vel, fermentum commodo erat. Vivamus at arcu bibendum mi molestie pretium. In varius gravida lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+			</p>
+			
+			<h2 id="para2">Paragraph 2</h2>
+			<p>
+				Donec eleifend tortor tincidunt arcu molestie, at ultricies purus scelerisque. Mauris sit amet enim non sapien aliquet faucibus. Maecenas lorem nibh, vestibulum laoreet ex a, sodales iaculis neque. Ut a dui et purus commodo pharetra. Suspendisse vehicula lectus leo, quis accumsan sapien molestie eu. Donec in sem libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas gravida, elit vitae scelerisque faucibus, metus elit finibus mi, id porttitor mi lorem at lacus. Donec gravida id dui ut consectetur. Cras imperdiet varius mauris, nec commodo ex pellentesque sed.
+			</p>
+			
+			<h2 id="para3">Paragraph 3</h2>
+			<p>
+				Praesent tincidunt euismod mi, quis sodales erat. Nullam posuere, ante nec sollicitudin tempor, mauris turpis commodo urna, in euismod ipsum tellus aliquet quam. Curabitur efficitur purus turpis, feugiat aliquam felis bibendum vestibulum. Ut ullamcorper ullamcorper imperdiet. Aenean nec venenatis dolor. Proin ullamcorper, metus vel lobortis fermentum, elit nisl tempus neque, id elementum massa ex a turpis. Donec ultrices libero in tellus feugiat, at auctor est tristique. Suspendisse vitae egestas neque. Integer iaculis et tellus sit amet eleifend. Suspendisse vitae fringilla neque. Vestibulum vitae rutrum arcu. Aliquam sed dui id tellus consequat placerat. Donec nulla lorem, tristique quis iaculis at, viverra et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan convallis scelerisque. Aliquam erat volutpat.
+			</p>
+
+			<h2 id="para4"> Paragraph 4</h2>
+			<p>
+				Donec pellentesque ut augue nec suscipit. Quisque egestas vehicula ligula a faucibus. Praesent id aliquam nibh. Donec nec purus lacus. Fusce gravida eget dui at interdum. Sed cursus non purus id tempor. Vestibulum consequat, libero sit amet cursus auctor, lorem nunc luctus quam, vel dapibus lacus leo sit amet enim. Sed ut ornare diam. Quisque tincidunt tempor lorem sed ullamcorper. Pellentesque tincidunt dui laoreet varius sollicitudin. Morbi faucibus neque sed enim malesuada, vitae congue arcu vehicula. Cras maximus purus vel arcu malesuada scelerisque.
+			</p>
+			
+			<h2 id="para5">Paragraph 5</h2>
+			<p>
+				Phasellus arcu justo, maximus a quam at, ornare rhoncus felis. Aenean sed lobortis mi. Quisque non eros ipsum. Etiam felis nisi, finibus in commodo et, convallis nec orci. Aliquam eu tempor magna. Sed volutpat ligula at est auctor, a dictum felis placerat. Vestibulum placerat commodo orci, in sollicitudin nulla tempor non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nisi ex, pretium eu ex eget, facilisis sagittis erat. Donec sodales consequat egestas. Nullam vehicula elit id mauris maximus dapibus.
+			</p>
+		</main>
+
+		<footer>
+			<p id="bottom">
+				Copyright (c) Think Greek Inc. 2018  
+			</p>
+
+		</footer>
+
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="node_modules/jquery/dist/jquery.min.js" ></script>
+	<script src="node_modules/popper.js/dist/popper.min.js" ></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
+
+	<!-- Custom local scripts -->
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		// jQuery methods go here...
+		
+		// console.log("DEBUG: Document loaged");
+
+		// attach an event handler on the navbar links such that 
+		// when the link is clicked, the menu will close
+		// $('.nav-collapse').collapse('hide');
+		$('a.nav-link').on('click', function(){
+			// console.log("DEBUG: inside link click function");
+    		$('.navbar-collapse').collapse('hide');
+		});
+   		
+	});
+	</script>
+
+</body>
+
+</html>

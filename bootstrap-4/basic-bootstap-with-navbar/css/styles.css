@@ -1,0 +1,16 @@
+
+/* Add some padding at the top of the body to make room for navabar */
+body {
+	padding-top: 70px;
+}
+
+/* Set the color of the link items in nav, navbar to white */
+nav, a {
+	color: #FFFFFF;
+}
+
+/* Set text color in span in nav to white */ 
+nav, span {
+	color: #FFFFFF;
+}
+
