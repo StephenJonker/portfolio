@@ -9,7 +9,7 @@ are considering hiring me for a job or contract, this is a good place to start.
 * Python
 * Javascript
 * HTML-CSS (Pending - 18 April 2018)
-* Selenium  (Pending - 18 April 2018)
+* Selenium
 * Bootstrap 4  (Pending - 18 April 2018)
 
 For additional examples, see the my other public repositories below. They exist to expand on the portfolio examples and 
