@@ -7,8 +7,8 @@ are considering hiring me for a job or contract, this is a good place to start.
 
 * Bash 
 * Python
+* Javascript
 * HTML-CSS (Pending - 18 April 2018)
-* Javascript  (Pending - 18 April 2018)
 * Selenium  (Pending - 18 April 2018)
 * Bootstrap 4  (Pending - 18 April 2018)
 

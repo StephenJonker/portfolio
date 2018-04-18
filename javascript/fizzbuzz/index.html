@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<!-- Written by: Stephen Jonker -->
+<!-- Written on: Tuesday 13 Feb 2018 -->
+<!-- Copyright (c) 2018 Stephen Jonker - www.stephenjonker.com -->
+
+<!-- FizzBuzz in Javascript -->
+
+<html>
+
+<head>
+	<title>FizzBuzz Javascript Example</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<h1>FizzBuzz Javascript sample code</h1>
+	<p>FizzBuzz</p>
+	<p>
+		<ul>
+			<li>FizzBuzz is a programming exercise often given as a test during interviews for software developers</li>
+			<li>The program is supposed to display the integer values of "N" between 1 and 100</li>
+			<li>Except in the following cases...</li>
+			<li>if the value of N is evenly divisible by 3, then output N and the word "Fizz"</li>
+			<li>if the value of N is evenly divisible by 5, then output N and the word "Buzz"</li>
+			<li>and when N is divisible by 3 and 5, output N and "FizzBuzz"</li>
+		</ul>
+	</p>
+	<h2>Eg.</h2>
+	<p>
+		<ul>
+			<li>When n = 6, output "Fizz"</li>
+			<li>When n = 10, output "Buzz"</li>
+			<li>When n = 15, output "FizzBuzz"</li>
+		</ul>
+	</p>
+	<hr>
+
+	<button id="AUT-button-doFizzBuzz" onclick="doFizzBuzz()">Do FizzBuzz</button>
+
+	<p>
+	<ul id="output">
+		<li>FizzBuzz Output goes here</li>
+	</ul>
+	</p>
+
+	<footer>
+		Copyright &#169 2018 Stephen Jonker - www.stephenjonker.com
+	</footer>
+
+<!-- Javascript below here -->
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/index.js"></script>
+
+<script>
+	$(document).ready(function() {
+	'use strict';
+	// TODO
+	testIndexJS();
+	console.log('index.js loaded');
+	});
+</script>
+</body>
+
+</html>

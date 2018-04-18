@@ -1,0 +1,43 @@
+/* 
+
+- Written by: Stephen Jonker
+- Written on: Tuesday 13 Feb 2018 
+- Copyright (c) 2018 Stephen Jonker - www.stephenjonker.com
+
+*/
+
+html {
+  /* border: 1px solid black; */
+  margin: 6px;
+  padding: 6px;
+  background: white;
+  color:black;
+}
+
+body {
+  /* border: 1px solid red; */
+  margin: 6px;
+  padding: 6px;
+  background: white;
+  color: black;
+}
+
+button {
+    background-color: #4CAF50; /* Grey */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+footer {
+  border: 1px solid black;
+  margin: 3px;
+  padding: 3px;
+  background: #e7e7e7; /* Gray */
+  color: black;
+  text-align: center;
+}
