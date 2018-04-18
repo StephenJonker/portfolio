@@ -5,5 +5,4 @@
 	* Includes unit tests 
 * binary_search - Data structures and Algorithms 
 	* Perform a binary search on a list of Integers looking for elements
-	* Return the index of the found element, or -1 is not found
 	* Included unit tests
