@@ -7,10 +7,10 @@ are considering hiring me for a job or contract, this is a good place to start.
 
 * Bash 
 * Python
-* HTML-CSS
-* Javascript 
-* Selenium 
-* Bootstrap 4 
+* HTML-CSS (Pending - 18 April 2018)
+* Javascript  (Pending - 18 April 2018)
+* Selenium  (Pending - 18 April 2018)
+* Bootstrap 4  (Pending - 18 April 2018)
 
 For additional examples, see the my other public repositories below. They exists to expand on the portfolio examples and 
 provide a online code reference for myself.  
